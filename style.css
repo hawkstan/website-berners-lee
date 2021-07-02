@@ -4,6 +4,9 @@ body {
     color: grey;
     font-weight: 300px 400px 800px;
 }
+#his {
+    background-color: #cccccc;
+}
 .intro, nav, .films {
     background-color: white;
     text-align: center;
@@ -13,24 +16,40 @@ body {
     border-radius: 5px;
 }
 #clicky {
-    background-color: red;
+    background-color: rgb(194, 50, 50);
     color: white;
     text-decoration: none;
     padding: 7px;
     border-radius: 5px;
 }
 h1 {
-    color: red;
+    color: rgb(194, 50, 50);
 }
 .intro > img {
     border-radius: 50%;
     border: 3px solid #cccccc;
     width: 30%;
 }
-a:visited {
+a {
     text-decoration: none;
     color: #cccccc;
 }
-ul {
-    list-style: none;
+@media only screen and (min-width: 300px) {
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+    }
+}
+li {
+    padding: 5%;
+    font-size: 110%;
+}
+.film > img {
+    width: 30%;
+    margin: 5%;
+}
+.resume {
+    padding: 5%;
 }
