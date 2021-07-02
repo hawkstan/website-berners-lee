@@ -1,0 +1,36 @@
+body {
+    background-color: #cccccc;
+    font-family: 'Open Sans';
+    color: grey;
+    font-weight: 300px 400px 800px;
+}
+.intro, nav, .films {
+    background-color: white;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 5%;
+    border-radius: 5px;
+}
+#clicky {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+h1 {
+    color: red;
+}
+.intro > img {
+    border-radius: 50%;
+    border: 3px solid #cccccc;
+    width: 30%;
+}
+a:visited {
+    text-decoration: none;
+    color: #cccccc;
+}
+ul {
+    list-style: none;
+}
